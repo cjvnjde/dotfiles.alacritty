@@ -1,4 +1,3 @@
-
 [window]
 option_as_alt = "Both"
 
@@ -13,3 +12,9 @@ import = [
 [window.padding]
 x = 0
 y = 0
+
+[keyboard]
+bindings = [
+  { key = "H", mods = "Control|Shift", mode = "~Vi", action = "ToggleViMode" },
+  { key = "H", mods = "Control|Shift", mode = "Vi", action = "ToggleViMode" }
+]
