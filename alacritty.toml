@@ -18,3 +18,9 @@ bindings = [
   { key = "H", mods = "Control|Shift", mode = "~Vi", action = "ToggleViMode" },
   { key = "H", mods = "Control|Shift", mode = "Vi", action = "ToggleViMode" }
 ]
+
+[terminal]
+
+[terminal.shell]
+program = "/bin/zsh"
+args = ["-l", "-c", "$HOME/.cargo/bin/zellij attach --index 0 --create; zsh"]
