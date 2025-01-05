@@ -23,4 +23,4 @@ bindings = [
 
 [terminal.shell]
 program = "/bin/zsh"
-args = ["-l", "-c", "$HOME/.cargo/bin/zellij attach --index 0 --create; zsh"]
+args = ["-l", "-c", "$HOME/.config/alacritty/start.sh"]
