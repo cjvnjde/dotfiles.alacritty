@@ -19,8 +19,8 @@ bindings = [
   { key = "H", mods = "Control|Shift", mode = "Vi", action = "ToggleViMode" }
 ]
 
-[terminal]
-
-[terminal.shell]
-program = "/bin/zsh"
-args = ["-l", "-c", "$HOME/.config/alacritty/start.sh"]
+# [terminal]
+#
+# [terminal.shell]
+# program = "/bin/zsh"
+# args = ["-l", "-c", "$HOME/.config/alacritty/start.sh"]
