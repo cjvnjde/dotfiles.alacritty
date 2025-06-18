@@ -1,12 +1,12 @@
 [window]
 option_as_alt = "Both"
-decorations = "None" 
+# decorations = "None" 
 
 [font]
 size = 12
 
 [font.normal]
-family = "Zed Plex Mono"
+family = "FiraCode Nerd Font"
 
 [general]
 import = [
